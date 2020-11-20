@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+}
+
+form {
+    background-color: #452B6B;
+    border: 2px solid #744ba3;
+    border-radius: 2px;
+}

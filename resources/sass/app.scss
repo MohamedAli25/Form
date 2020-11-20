@@ -1,0 +1,52 @@
+ /* #452B6B, #744ba3, #4e3572, #2d2144 */
+
+ @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+
+ * {
+    box-sizing: border-box;
+}
+
+html {
+    background-image: linear-gradient(90deg, #452B6B, rgba(116,75,163, 0.8));
+}
+
+body {
+    background-image: linear-gradient(90deg, #452B6B, rgba(116,75,163, 0.8));
+    padding: 15px;
+    margin: 25px 0;
+    color:white;
+    font-family: "Source Sans Pro";
+}
+
+.image {
+    height: 130px;
+}
+
+.image img {
+    display: inline-block;
+    height: 100%;
+}
+
+.form-header {
+    font-weight: 900;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.content p,blockquote,footer::before,footer::after,footer {
+    font-size: 22px;
+    color: white;
+}
+
+th a {
+    color: rgb(198, 198, 255);
+}
+
+th a:hover {
+    color: rgb(198, 198, 255);
+    text-decoration: none;
+}
